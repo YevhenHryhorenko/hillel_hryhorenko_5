@@ -1,0 +1,46 @@
+h1 {
+	color: rgb(46, 90, 134);
+	text-align: center;
+}
+
+dt {
+	font-weight: bold;
+	color:rgb(255, 132, 0);
+	font-size: 19px;
+}
+
+ol li {
+	padding: 0.5rem 1.5rem 1rem ;
+	border-radius: 1.5rem;
+	background: peachpuff;
+}
+
+li + li {
+	margin-top: 1rem;
+}
+
+::marker {
+	font-weight: 600;
+	color: tomato;
+	font-size: 1.4rem;
+}
+
+#selector {
+	color: rgb(151, 11, 193);
+	text-align: center;
+}
+
+.second_title {
+	color: rgb(151, 11, 193);
+	text-align: center;
+}
+
+.second_title.additional_title {
+	color: rgb(94, 94, 94);
+}
+
+.additional {
+	padding: 0.5rem 1.5rem 1rem;
+	border-radius: 1.5rem;
+	background: rgb(160, 159, 159);
+}
