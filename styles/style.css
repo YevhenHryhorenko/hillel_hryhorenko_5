@@ -15,7 +15,7 @@ ol li {
 	background: peachpuff;
 }
 
-li + li {
+li {
 	margin-top: 1rem;
 }
 
@@ -26,7 +26,7 @@ li + li {
 }
 
 #selector {
-	color: rgb(151, 11, 193);
+	color: rgb(173, 29, 55);
 	text-align: center;
 }
 
@@ -43,4 +43,48 @@ li + li {
 	padding: 0.5rem 1.5rem 1rem;
 	border-radius: 1.5rem;
 	background: rgb(160, 159, 159);
+}
+
+#example-1 {
+	color:blue;
+}
+
+.example-2 {
+	color:rgb(46, 90, 134);
+}
+
+.example-3.temp.temp2 {
+	color: brown;
+}
+
+.ex-4 {
+	color: #000;
+}
+
+.example-4 > .ex-4 {
+	color: chartreuse;
+}
+
+div + .example-5 {
+	color: aqua;
+}
+
+a[href="https://google.com"] {
+	color: blueviolet;
+} 
+
+input[value~="button"] {
+	color: coral;
+}
+
+p[id$="ex-8"] {
+	color: darkgoldenrod;
+}
+
+p[id*="ex-9"] {
+	color: cornflowerblue;
+}
+
+.ex-10::first-line {
+	color:deeppink;
 }
